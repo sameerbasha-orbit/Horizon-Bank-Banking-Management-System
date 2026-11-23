@@ -1,0 +1,77 @@
+Folder PATH listing for volume Windows
+Volume serial number is FC2D-D9C3
+C:\PROJECTS\HORIZON-BANK\BANKING_BACKEND\SRC
++---main
+¦   +---java
+¦   ¦   +---com
+¦   ¦       +---horizonbank
+¦   ¦           ¦   BankingBackendApplication.java
+¦   ¦           ¦   
+¦   ¦           +---auth
+¦   ¦           ¦   +---controller
+¦   ¦           ¦   ¦       AccountController.java
+¦   ¦           ¦   ¦       AuthController.java
+¦   ¦           ¦   ¦       CustomerController.java
+¦   ¦           ¦   ¦       HealthController.java
+¦   ¦           ¦   ¦       TransactionController.java
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---dto
+¦   ¦           ¦   ¦       AccountRequest.java
+¦   ¦           ¦   ¦       AccountResponse.java
+¦   ¦           ¦   ¦       AuthResponse.java
+¦   ¦           ¦   ¦       CustomerRequest.java
+¦   ¦           ¦   ¦       CustomerResponse.java
+¦   ¦           ¦   ¦       DepositRequest.java
+¦   ¦           ¦   ¦       LoginRequest.java
+¦   ¦           ¦   ¦       RegisterRequest.java
+¦   ¦           ¦   ¦       TransactionEntryResponse.java
+¦   ¦           ¦   ¦       TransactionResponse.java
+¦   ¦           ¦   ¦       TransferRequest.java
+¦   ¦           ¦   ¦       WithdrawalRequest.java
+¦   ¦           ¦   ¦       
+¦   ¦           ¦   +---service
+¦   ¦           ¦           AccountService.java
+¦   ¦           ¦           AuthService.java
+¦   ¦           ¦           CustomerService.java
+¦   ¦           ¦           TransactionService.java
+¦   ¦           ¦           
+¦   ¦           +---config
+¦   ¦           ¦       SecurityConfig.java
+¦   ¦           ¦       
+¦   ¦           +---entity
+¦   ¦           ¦       Account.java
+¦   ¦           ¦       AccountStatus.java
+¦   ¦           ¦       AccountType.java
+¦   ¦           ¦       AppUser.java
+¦   ¦           ¦       Branch.java
+¦   ¦           ¦       Customer.java
+¦   ¦           ¦       EntryType.java
+¦   ¦           ¦       KycStatus.java
+¦   ¦           ¦       Transaction.java
+¦   ¦           ¦       TransactionEntry.java
+¦   ¦           ¦       TransactionStatus.java
+¦   ¦           ¦       TransactionType.java
+¦   ¦           ¦       UserRole.java
+¦   ¦           ¦       
+¦   ¦           +---repository
+¦   ¦           ¦       AccountRepository.java
+¦   ¦           ¦       AppUserRepository.java
+¦   ¦           ¦       BranchRepository.java
+¦   ¦           ¦       CustomerRepository.java
+¦   ¦           ¦       TransactionEntryRepository.java
+¦   ¦           ¦       TransactionRepository.java
+¦   ¦           ¦       
+¦   ¦           +---security
+¦   ¦                   CustomUserDetailsService.java
+¦   ¦                   JwtAuthenticationFilter.java
+¦   ¦                   JwtService.java
+¦   ¦                   
+¦   +---resources
+¦           application.properties
+¦           
++---test
+    +---java
+        +---com
+            +---horizonbank
+                    BankingBackendApplicationTests.java
+                    
